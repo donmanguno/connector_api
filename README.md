@@ -1,29 +1,32 @@
 # connector_api
 
+### Listener manifest example
 ```json
 {
-  "client_name": "Test Webhook Connector",
+  "client_name": "Listener",
   "description": "Webhook Event Listener",
   "enabled": true,
   "capabilities": {
     "webhooks": {
       "ms.MessagingEventNotification.ContentEvent": {
-        "endpoint": "https://54fb-45-25-45-52.ngrok.io/event/ContentEvent",
-        "max_retries": 3
+        "endpoint": "https://{domain}/event/ContentEvent",
+        "max_retries": 2
       },
       "ms.MessagingEventNotification.RichContentEvent": {
-        "endpoint": "https://54fb-45-25-45-52.ngrok.io/event/RichContentEvent",
-        "max_retries": 5
+        "endpoint": "https://{domain}/event/RichContentEvent",
+        "max_retries": 2
       },
       "ms.MessagingEventNotification.AcceptStatusEvent": {
-        "endpoint": "https://54fb-45-25-45-52.ngrok.io/event/AcceptStatusEvent",
+        "endpoint": "https://{domain}/event/AcceptStatusEvent",
         "max_retries": 1
       },
       "ms.MessagingEventNotification.ChatStateEvent": {
-        "endpoint": "https://54fb-45-25-45-52.ngrok.io/event/ChatStateEvent"
+        "endpoint": "https://{domain}/event/ChatStateEvent",
+        "max_retries": 3
       },
       "cqm.ExConversationChangeNotification": {
-        "endpoint": "https://54fb-45-25-45-52.ngrok.io/event/ExConversationChangeNotification"
+        "endpoint": "https://{domain}/event/ExConversationChangeNotification",
+        "max_retries": 3
       }
     }
   }
