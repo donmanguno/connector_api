@@ -1,6 +1,6 @@
 {
   "name": "connector_api",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "lp connector api plugin",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,7 @@
     "express": "^4.16.3",
     "jwt-decode": "^2.2.0",
     "lodash": "^4.17.10",
+    "ngrok": "^4.3.3",
     "node-thumbnail": "^0.14.0",
     "request": "^2.85.0",
     "uuid": "^3.2.1"
