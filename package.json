@@ -1,0 +1,26 @@
+{
+  "name": "connector_api",
+  "version": "0.2.1",
+  "description": "lp connector api plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  }
+  "author": "mmanguno@liveperson.com",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.1.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "eventemitter2": "^5.0.1",
+    "express": "^4.16.3",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.10",
+    "node-thumbnail": "^0.14.0",
+    "request": "^2.85.0",
+    "uuid": "^3.2.1"
+  }
+}

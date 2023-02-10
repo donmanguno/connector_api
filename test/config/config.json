@@ -1,0 +1,14 @@
+{
+    "port": 3579,
+    "accountId": "6059410",
+    "installationId": "999216ec-f6c5-440c-82e3-55d3b1dbef77",
+    "secret": "8na5ftd573r0crctir6cth3j84",
+    "oauthParams": {
+        "consumer_key": "d19ae903e5754e8c82392edb12edf29c",
+        "consumer_secret": "1dc3078fbe165117",
+        "token": "425358d4c7c44bd9acbfce8a6e69405d",
+        "token_secret": "f56ac0a759478bc0"
+    },
+    "agentPID": "d26fb76d-7485-5518-b422-8296708732d4",
+    "consumerPID": "827046c8ac8f55eea7c19ff6c3ffa60b92e6a06db45761deaf83d52f0ee3dd5d"
+}
