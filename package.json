@@ -1,6 +1,6 @@
 {
   "name": "connector_api",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "lp connector api plugin",
   "main": "index.js",
   "scripts": {
