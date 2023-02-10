@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha"
-  }
+  },
   "author": "mmanguno@liveperson.com",
   "license": "ISC",
   "devDependencies": {
